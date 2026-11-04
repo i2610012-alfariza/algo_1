@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritma dan Pemrograman</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f0f4f8;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0f172a, #2563eb);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        header p {
+            font-size: 17px;
+            color: #dbeafe;
+        }
+
+        nav {
+            background: #1e293b;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #60a5fa;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 1000px;
+            margin: 35px auto;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        .card h2 {
+            color: #2563eb;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            line-height: 1.8;
+        }
+
+        .code {
+            background: #0f172a;
+            color: #4ade80;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 15px;
+            overflow-x: auto;
+        }
+
+        .button {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            padding: 12px 25px;
+            margin-top: 15px;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background: #1d4ed8;
+        }
+
+        footer {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 26px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 8px;
+            }
+
+            .container {
+                width: 92%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>ALGORITMA DAN PEMROGRAMAN</h1>
+        <p>Belajar Logika, Berpikir Kreatif, dan Membangun Program</p>
+    </header>
+
+    <nav>
+        <a href="#beranda">Beranda</a>
+        <a href="#algoritma">Algoritma</a>
+        <a href="#pemrograman">Pemrograman</a>
+        <a href="#contoh">Contoh C++</a>
+    </nav>
+
+    <div class="container">
+
+        <section class="card" id="beranda">
+            <h2>Selamat Datang!</h2>
+            <p>
+                Selamat datang di website pembelajaran Algoritma dan
+                Pemrograman. Website ini dibuat untuk mengenal dasar-dasar
+                algoritma, logika pemrograman, dan bahasa pemrograman C++.
+            </p>
+        </section>
+
+        <section class="card" id="algoritma">
+            <h2>Apa Itu Algoritma?</h2>
+            <p>
+                Algoritma adalah urutan langkah-langkah logis dan sistematis
+                untuk menyelesaikan suatu masalah. Algoritma membantu kita
+                berpikir secara terstruktur sebelum membuat sebuah program.
+            </p>
+        </section>
+
+        <section class="card" id="pemrograman">
+            <h2>Apa Itu Pemrograman?</h2>
+            <p>
+                Pemrograman adalah proses membuat instruksi menggunakan
+                bahasa pemrograman agar komputer dapat menjalankan tugas
+                tertentu sesuai dengan perintah yang diberikan.
+            </p>
+        </section>
+
+        <section class="card" id="contoh">
+            <h2>Contoh Program C++</h2>
+            <p>
+                Berikut adalah contoh program sederhana menggunakan
+                bahasa pemrograman C++ untuk menampilkan tulisan Hello World.
+            </p>
+
+            <div class="code">
+<pre>
+#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout << "Hello World!";
+    cout << "\nSelamat Belajar C++!";
+
+    return 0;
+}
+</pre>
+            </div>
+
+            <a href="#beranda" class="button">Kembali ke Atas</a>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Algoritma dan Pemrograman</p>
+        <p>Belajar Coding, Mulai dari Sekarang!</p>
+    </footer>
+
+</body>
+</html>
