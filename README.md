@@ -2,5 +2,5 @@
 # nama : mochammad alfariza  
 # nim : I.2610012  
 
-deskripsi : 
-latihan github
+deskripsi :  
+latihan github  
